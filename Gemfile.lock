@@ -570,6 +570,7 @@ DEPENDENCIES
   devise-encryptable (~> 0.2.0)
   dynamic_form (~> 1.1.4)
   email_spec (~> 1.6.0)
+  execjs
   factory_girl_rails (~> 4.4.1)
   faraday (~> 0.9.1)
   faraday_middleware (~> 0.10.0)
@@ -631,4 +632,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.3
+   1.12.5
