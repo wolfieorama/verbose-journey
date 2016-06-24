@@ -122,14 +122,20 @@ gem "i18n-js",
     branch: "master",
     ref: "2ca6d31365bb41db21e373d126cac00d38d15144"
 
-group :staging, :production do
-  gem 'newrelic_rpm', '~> 3.9.1.236'
-  gem 'rails_12factor', '~> 0.0.3'
-end
+# group :staging, :production do
+#   gem 'newrelic_rpm', '~> 3.9.1.236'
+#   gem 'rails_12factor', '~> 0.0.3'
+# end
 
 group :development, :test do
   gem 'rubocop', '~> 0.37.2', require: false
   gem 'factory_girl_rails', "~> 4.4.1"
+
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
 end
 
 group :development, :staging do
@@ -146,6 +152,8 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'awesome_print', '~> 1.6.1'
 end
+
+gem 'puma'
 
 group :test do
   gem 'capybara', '~> 2.6.2'
