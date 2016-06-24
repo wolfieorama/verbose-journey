@@ -22,8 +22,7 @@ gem 'jquery-rails', '3.1.3'
 
 # Bundle the extra gems:
 
-gem 'puma'
-
+gem 'puma', '~> 2.11'
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
 gem "passenger", "~> 5.0.18"
 
