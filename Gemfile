@@ -115,9 +115,6 @@ gem "react_on_rails", "~> 5.1.1"
 
 gem 'execjs'
 
-gem 'puma'
-
-
 # Use latest from master
 #
 # The latest master is needed because it contains the I18n.extend configuration
@@ -141,6 +138,7 @@ group :development, :test do
   gem 'capistrano-rails',   require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma',   require: false
+  gem 'puma'
 end
 
 group :development, :staging do
