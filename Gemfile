@@ -115,6 +115,9 @@ gem "react_on_rails", "~> 5.1.1"
 
 gem 'execjs'
 
+gem 'puma'
+
+
 # Use latest from master
 #
 # The latest master is needed because it contains the I18n.extend configuration
@@ -154,8 +157,6 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'awesome_print', '~> 1.6.1'
 end
-
-gem 'puma'
 
 group :test do
   gem 'capybara', '~> 2.6.2'
