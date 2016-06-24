@@ -1,7 +1,7 @@
 # Change these
 server '37.139.4.48', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@gihub.com:wolfieorama/sharetribe.git'
+set :repo_url,        'git@github.com:wolfieorama/sharetribe.git'
 set :application,     'sharetribe'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
