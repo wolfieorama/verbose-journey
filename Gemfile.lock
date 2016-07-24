@@ -115,22 +115,6 @@ GEM
     builder (3.2.2)
     byebug (8.2.5)
     callsite (0.0.11)
-    capistrano (3.4.0)
-      i18n
-      rake (>= 10.0.0)
-      sshkit (~> 1.3)
-    capistrano-bundler (1.1.4)
-      capistrano (~> 3.1)
-      sshkit (~> 1.2)
-    capistrano-rails (1.1.6)
-      capistrano (~> 3.1)
-      capistrano-bundler (~> 1.1)
-    capistrano-rvm (0.1.2)
-      capistrano (~> 3.0)
-      sshkit (~> 1.2)
-    capistrano3-puma (1.2.1)
-      capistrano (~> 3.0)
-      puma (>= 2.6)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -326,9 +310,6 @@ GEM
     multipart-post (1.2.0)
     mysql2 (0.3.20)
     nenv (0.3.0)
-    net-scp (1.2.1)
-      net-ssh (>= 2.6.5)
-    net-ssh (3.0.2)
     netrc (0.11.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -377,7 +358,6 @@ GEM
       byebug (~> 8.0)
       pry (~> 0.10)
     public_suffix (1.5.3)
-    puma (2.16.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -486,9 +466,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    sshkit (1.8.1)
-      net-scp (>= 1.1.2)
-      net-ssh (>= 2.8.0)
     statesman (1.3.1)
     stringex (2.5.2)
     therubyracer (0.12.2)
@@ -547,11 +524,6 @@ DEPENDENCIES
   aws-sdk-v1 (~> 1.64.0)
   better_errors (~> 2.1.1)
   braintree (~> 2.30.0)
-  capistrano
-  capistrano-bundler
-  capistrano-rails
-  capistrano-rvm
-  capistrano3-puma
   capybara (~> 2.6.2)
   coffee-rails (~> 4.0.1)
   color (~> 1.8)
@@ -602,7 +574,6 @@ DEPENDENCIES
   protected_attributes (~> 1.1.3)
   pry-byebug
   public_suffix (~> 1.5.1)
-  puma (~> 2.11)
   quiet_assets (~> 1.1.0)
   rack-test (~> 0.6.2)
   rails (= 4.2.5.2)

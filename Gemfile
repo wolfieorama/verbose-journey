@@ -21,8 +21,6 @@ gem 'compass', '~> 0.13.alpha'
 gem 'jquery-rails', '3.1.3'
 
 # Bundle the extra gems:
-
-gem 'puma', '~> 2.11'
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
 gem "passenger", "~> 5.0.18"
 
@@ -133,12 +131,6 @@ gem "i18n-js",
 group :development, :test do
   gem 'rubocop', '~> 0.37.2', require: false
   gem 'factory_girl_rails', "~> 4.4.1"
-
-  gem 'capistrano',         require: false
-  gem 'capistrano-rvm',     require: false
-  gem 'capistrano-rails',   require: false
-  gem 'capistrano-bundler', require: false
-  gem 'capistrano3-puma',   require: false
 end
 
 group :development, :staging do
